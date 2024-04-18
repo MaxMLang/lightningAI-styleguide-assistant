@@ -76,7 +76,7 @@ def process_user_code(user_code, conversation, programming_language, style_guide
     """
     Process the user's code and generate a response using the conversation chain.
     """
-    prompt = f"Please rewrite the provided {programming_language} code to adhere strictly to the {style_guide} standards. Ensure the output consists solely of the revised code, ready for copy-paste:\n\n{user_code}. Please ensure to that the output only consists of the revised code this is very important!"
+    prompt = f"Please rewrite the provided {programming_language} code to adhere strictly to the {style_guide} standards. Ensure the output consists solely of the revised code, enclosed within triple backticks for easy copy-paste, without specifying the programming language on the first line:\n\n{user_code}. Please ensure that the output only consists of the revised code within triple backticks, as this is very important!"
     response = conversation(prompt)
     message = {'human': prompt, 'AI': response['response']}
     st.session_state.chat_history.append(message)
@@ -88,7 +88,7 @@ def main():
     """
     groq_api_key = os.environ['GROQ_API_KEY']
     initialize_session_state()
-    st.title("Lightning ⚡️ Code Style Guide Assistant")
+    st.title("Lightning ⚡️ Code Style Guide Assistant & Code Translator")
     st.markdown("Get your code rewritten according to popular style guides by Lightning, an ultra-fast AI chatbot powered by Groq LPUs!!")
 
     model, programming_language, style_guide = display_customization_options()
@@ -121,7 +121,22 @@ def main():
 
         with st.expander("Rewritten Code"):
             response = conversation(user_code)
-            st.code(response['response'], language=programming_language.lower())
+            ai_response = response['response']
+
+            # Extract the code within triple backticks
+            code_start = ai_response.find('```') + 3
+            code_end = ai_response.find('```', code_start)
+            code = ai_response[code_start:code_end]
+
+            # Extract the text before and after the code
+            text_before_code = ai_response[:code_start-3].strip()
+            text_after_code = ai_response[code_end+3:].strip()
+
+            # Display the text and code separately
+            st.write(text_before_code)
+            st.code(code, language=programming_language.lower())
+            st.write(text_after_code)
+
             st.session_state.chat_history[-1]["AI"] = response['response']
 
 
