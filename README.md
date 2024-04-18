@@ -7,7 +7,6 @@
 [![GitHub Stars](https://img.shields.io/github/stars/MaxMLang/lightningAI-styleguide-assistant?style=social)](https://github.com/MaxMLang/lightningAI-styleguide-assistant/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/MaxMLang/lightningAI-styleguide-assistant)](https://github.com/MaxMLang/lightningAI-styleguide-assistant/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/MaxMLang/lightningAI-styleguide-assistant)](https://github.com/MaxMLang/lightningAI-styleguide-assistant/pulls)
-[![License](https://img.shields.io/github/license/MaxMLang/lightningAI-styleguide-assistant)](https://github.com/MaxMLang/lightningAI-styleguide-assistant/blob/main/LICENSE)
 
 The Lightning ⚡️ AI Style Guide Assistant is a specialized adaptation of the [Lightning Chatbot](https://github.com/MaxMLang/lightningfast-ai-chat), designed to assist in maintaining consistency and accuracy in style guides. Leveraging Groq LPUs, it provides real-time style and grammar recommendations, making it an essential tool for editors and writers. This AI-powered assistant enhances productivity by automating the enforcement of writing standards and style consistency.
 
