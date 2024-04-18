@@ -9,7 +9,7 @@
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/MaxMLang/lightningAI-styleguide-assistant)](https://github.com/MaxMLang/lightningAI-styleguide-assistant/pulls)
 
 The Lightning ⚡️ AI Style Guide Assistant is a specialized adaptation of the [Lightning Chatbot](https://github.com/MaxMLang/lightningfast-ai-chat), designed to assist in maintaining consistency and accuracy in code. Powered by Groq LPUs (Language Processing Units), it offers one of the **fastest inference speeds** on the market as of April 2024.
-
+## [Click here to try it out](https://lightningai-styleguide-assistant.streamlit.app/)
 ## Features
 
 - ⚡ Real-time style and grammar recommendations powered by Groq LPUs.
