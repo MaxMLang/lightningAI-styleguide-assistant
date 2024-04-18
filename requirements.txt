@@ -1,0 +1,7 @@
+langchain~=0.1.12
+langchain-community==0.0.28
+langchain-core==0.1.32
+langchain-openai==0.0.3
+langchain-groq==0.1.2
+langchain-text-splitters==0.0.1
+python-dotenv==1.0.1
