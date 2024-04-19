@@ -1,4 +1,4 @@
-# Lightning ⚡️ AI Style Guide Assistant
+# Lightning ⚡️ AI Style Guide Assistant & Code Translator
 
 <p align="center">
   <img src="assets/logo.png" alt="AI Style Guide Assistant Logo" width="200" height="200">
@@ -14,7 +14,7 @@ The Lightning ⚡️ AI Style Guide Assistant is a specialized adaptation of the
 
 - ⚡ Real-time style and grammar recommendations powered by Groq LPUs.
 - 📘 Supports custom style guide integration for personalized recommendations.
-- 💬 Interactive editing experience with instant feedback.
+- 📝  Lightning fast style guide rewrites and code translation 
 - 🌐 Deploy easily using the Streamlit web framework.
 
 ## Installation
