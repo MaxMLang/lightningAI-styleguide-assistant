@@ -16,7 +16,7 @@ def initialize_session_state():
     if 'chat_history' not in st.session_state:
         st.session_state.chat_history = []
     if 'model' not in st.session_state:
-        st.session_state.model = 'llama3-8b-8192'
+        st.session_state.model = 'llama3-70b-8192'
     if 'programming_language' not in st.session_state:
         st.session_state.programming_language = 'Python'
     if 'style_guide' not in st.session_state:
@@ -30,7 +30,7 @@ def display_customization_options():
     st.sidebar.title('Customization')
     model = st.sidebar.selectbox(
         'Choose a model',
-        ['llama3-8b-8192','mixtral-8x7b-32768', 'llama2-70b-4096'],
+        ['llama3-70b-8192', 'llama3-8b-8192','mixtral-8x7b-32768', 'llama2-70b-4096', 'gemma-7b-it'],
         key='model_selectbox'
     )
     programming_language = st.sidebar.selectbox(
