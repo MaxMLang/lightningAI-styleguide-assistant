@@ -1,5 +1,5 @@
-# Lightning ⚡️ AI Style Guide Assistant & Code Translator (powered through Llama 3 by Meta AI)
-
+# Lightning ⚡️ AI Style Guide Assistant & Code Translator 
+## Supports Meta AI's new Llama 3 Model!
 <p align="center">
   <img src="assets/logo.png" alt="AI Style Guide Assistant Logo" width="200" height="200">
 </p>
