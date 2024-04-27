@@ -1,5 +1,5 @@
-# Lightning ⚡️ AI Style Guide Assistant & Code Translator (powered through Llama 3 by Meta AI)
-
+# Lightning ⚡️ AI Style Guide Assistant & Code Translator 
+## Supports Meta AI's new Llama 3 Model!
 <p align="center">
   <img src="assets/logo.png" alt="AI Style Guide Assistant Logo" width="200" height="200">
 </p>
@@ -16,6 +16,15 @@ The Lightning ⚡️ AI Style Guide Assistant is a specialized adaptation of the
 - 📘 Supports custom style guide integration for personalized recommendations.
 - 📝  Lightning fast style guide rewrites and code translation 
 - 🌐 Deploy easily using the Streamlit web framework.
+
+
+## Available Models
+- 🦙 **Llama3-70B-8192**: Experience high-end performance with this large-scale model, ideal for complex language tasks and deep learning insights.
+- 🦙 **Llama3-8B-8192**: Harness robust capabilities with this more accessible version of Llama3, perfect for a wide range of AI applications.
+- 🌟 **Mixtral-8x7B-32768**: Leverage the power of ensemble modeling with Mixtral's extensive capacity for nuanced understanding and response generation.
+- 🦙 **Llama2-70B-4096**: Utilize the proven effectiveness of Llama2 for comprehensive language processing and application development.
+- 💎 **Gemma-7B-IT**: Explore specialized interactions and tech-focused solutions with Gemma, tailored for IT and technical content.
+
 
 ## Installation
 
