@@ -30,7 +30,7 @@ def display_customization_options():
     st.sidebar.title('Customization')
     model = st.sidebar.selectbox(
         'Choose a model',
-        ['llama3-70b-8192', 'llama3-8b-8192','mixtral-8x7b-32768', 'gemma-7b-it'],
+        ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant','gemma2-9b-it', 'llama3-70b-8192'],
         key='model_selectbox'
     )
     programming_language = st.sidebar.selectbox(
